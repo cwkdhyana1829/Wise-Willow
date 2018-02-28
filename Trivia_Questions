@@ -1,0 +1,30 @@
+class Question:
+    
+    def _init_(self, question, answers, correct):
+        self.question = question
+        self.answers = answers
+        self.correct = correct
+        
+    def printquestion(self):
+       print()
+        
+    def printanswers(self):
+        pass
+    
+    def checkanswer(self):
+        pass
+    
+    def.ask(self):
+        pass
+    
+    
+play.game():
+    Question = []
+    q1 = Question("What is eidology?",["The study of skin", "The study of mental imagery", "The science and art of agriculture", "The study of old age"],2) 
+    
+    q2 = Question("What popular beverage once contained cocaine?",["Sprite","Orange juice","Coco-Cola","Lemonade"],3)
+   
+    q3 = Question("In what year was the U.S. Constitution written?",["1787, 1734, 1769, 1773"],1)
+   
+    q4 = Question("In the United States which breed of dog is commonly known as a firehouse dog?",["Labrador, Husky, Dalmation, Corgi"]
+    
